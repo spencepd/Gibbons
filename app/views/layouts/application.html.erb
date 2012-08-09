@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gibbons</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<header>
+  <nav>
+	<ul>
+		<li><%= link_to 'Home', '/' %></li>
+		<li><%= link_to 'About Us', 'aboutUs' %></li>
+		<li><%= link_to 'Contact Us', 'contactUs' %></li>
+		<li><%= link_to 'Terms & Conditions', 'termsConditions' %></li>
+	</ul>	
+  </nav>
+</header>
+<%= yield %>
+
+</body>
+</html>
