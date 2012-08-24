@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+RedCross:
+  name: American Red Cross
+  description: Helping people prevent, prepare for and respond to emergencies
+  overall: 59.64
+  financial: 55.35
+  accountability: 70.00
+
+WorldVision:
+  name: World Vision
+  description: Building a better world for children
+  overall: 64.60
+  financial: 62.98
+  accountability: 67.00
