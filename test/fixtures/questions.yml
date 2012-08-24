@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  label: Question One
+  question_type: MULTI_CHOICE
+  questionGroup: one
+
+two:
+  label: Question Two
+  question_type: SINGLE_CHOICE
+  questionGroup: one

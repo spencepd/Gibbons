@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+education:
+  label: Education Label
+  group_type: EDUCATION
+
+poor:
+  label: Poor Label
+  group_type: EDUCATION
