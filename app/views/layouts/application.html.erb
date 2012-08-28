@@ -8,14 +8,17 @@
 </head>
 <body>
 <header>
-  <nav>
-	<ul>
-		<li><%= link_to 'Home', '/' %></li>
-		<li><%= link_to 'About Us', 'aboutUs' %></li>
-		<li><%= link_to 'Contact Us', 'contactUs' %></li>
-		<li><%= link_to 'Terms & Conditions', 'termsConditions' %></li>
-	</ul>	
-  </nav>
+	<div class="navbar">
+	  <div class="navbar-inner">
+	    <a class="brand" href="#">Gibbons</a>
+	    <ul class="nav">
+			<li><%= link_to 'Home', '/' %></li>
+			<li><%= link_to 'About Us', 'aboutUs' %></li>
+			<li><%= link_to 'Contact Us', 'contactUs' %></li>
+			<li><%= link_to 'Terms & Conditions', 'termsConditions' %></li>
+	    </ul>
+	  </div>
+	</div>
 </header>
 <%= yield %>
 
