@@ -1,4 +1,6 @@
 Gibbons::Application.routes.draw do
+  resources :users
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -9,6 +11,8 @@ Gibbons::Application.routes.draw do
   match 'aboutUs' => 'home#about_us'
   match 'contactUs' => 'home#contact_us'
   match 'termsConditions' => 'home#terms_conditions'
+  
+  resources :charities
   
   # Sample of named route:
   #   match 'products/:id/purchase' => 'catalog#purchase', :as => :purchase
