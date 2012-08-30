@@ -1,2 +1,14 @@
-<h1>Survey#index</h1>
-<p>Find me in app/views/survey/index.html.erb</p>
+<h1>Survey</h1>
+
+<div class="survey_form">
+  <%= form_tag do %>
+    <%= check_box_tag(:like_you) %>
+    <%= label_tag(:like_you, "I like you guys") %>
+    <%= check_box_tag(:love_you) %>
+    <%= label_tag(:love_you, "I love you guys!") %>
+
+	<div>
+	  <%= submit_tag "Submit" %>
+    </div>
+  <% end %>
+</div>

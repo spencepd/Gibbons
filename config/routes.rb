@@ -1,15 +1,26 @@
 Gibbons::Application.routes.draw do
 
-  get "survey/index"
-
-  get "suggestion/index"
-
   get 'admin' => 'admin#index'
 
   controller :sessions do
     get 'login' => :new
     post 'login' => :create
     delete 'logout' => :destroy
+  end
+
+  controller :interests do
+    get 'interests' => :index
+    post 'interests' => :save_answers
+  end
+
+  controller :disposition do
+    get 'disposition' => :index
+    post 'disposition' => :save_answers
+  end
+
+  controller :survey do
+    get 'survey' => :index
+    post 'survey' => :show
   end
 
   resources :users
@@ -25,9 +36,9 @@ Gibbons::Application.routes.draw do
   match 'aboutUs' => 'home#about_us'
   match 'contactUs' => 'home#contact_us'
   match 'termsConditions' => 'home#terms_conditions'
+  
+  match 'suggestion' => 'suggestion#index'
 
-  match 'disposition' => 'disposition#index'
-  match 'interests' => 'interests#index'
     
   # Sample of named route:
   #   match 'products/:id/purchase' => 'catalog#purchase', :as => :purchase

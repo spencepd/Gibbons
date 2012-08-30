@@ -1,2 +1,15 @@
 <h1>Interests</h1>
 
+<div class="interests_form">
+  <%= form_tag do %>
+    <%= check_box_tag(:poor_education) %>
+    <%= label_tag(:poor_education, "Education in Poor Communities") %>
+    <%= check_box_tag(:general_education) %>
+    <%= label_tag(:general_education, "Education in General") %>
+
+	<div>
+	  <%= submit_tag "Onward" %>
+    </div>
+  <% end %>
+</div>
+	

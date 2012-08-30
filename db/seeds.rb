@@ -21,3 +21,4 @@ User.create(name: 'Paul',
             password_digest: BCrypt::Password.create('P4ul'))
 User.create(name: 'Stacy',
             password_digest: BCrypt::Password.create('St4cy'))
+            

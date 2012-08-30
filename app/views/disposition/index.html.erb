@@ -1,1 +1,14 @@
 <h1>Disposition</h1>
+
+<div class="disposition_form">
+  <%= form_tag do %>
+    <%= check_box_tag(:fun) %>
+    <%= label_tag(:fun, "Having fun is important to me") %>
+    <%= check_box_tag(:fiscally_sound) %>
+    <%= label_tag(:fiscally_sound, "Being fiscally sound is important to me") %>
+
+	<div>
+	  <%= submit_tag "Onward" %>
+    </div>
+  <% end %>
+</div>
