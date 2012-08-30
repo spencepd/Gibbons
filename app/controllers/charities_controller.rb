@@ -1,6 +1,5 @@
 class CharitiesController < ApplicationController
-  # GET /charities
-  # GET /charities.json
+  
   def index
     @charities = Charity.all
 
@@ -10,8 +9,6 @@ class CharitiesController < ApplicationController
     end
   end
 
-  # GET /charities/1
-  # GET /charities/1.json
   def show
     @charity = Charity.find(params[:id])
 
@@ -21,8 +18,6 @@ class CharitiesController < ApplicationController
     end
   end
 
-  # GET /charities/new
-  # GET /charities/new.json
   def new
     @charity = Charity.new
 
@@ -32,13 +27,10 @@ class CharitiesController < ApplicationController
     end
   end
 
-  # GET /charities/1/edit
   def edit
     @charity = Charity.find(params[:id])
   end
 
-  # POST /charities
-  # POST /charities.json
   def create
     @charity = Charity.new(params[:charity])
 
@@ -53,8 +45,6 @@ class CharitiesController < ApplicationController
     end
   end
 
-  # PUT /charities/1
-  # PUT /charities/1.json
   def update
     @charity = Charity.find(params[:id])
 
@@ -69,8 +59,6 @@ class CharitiesController < ApplicationController
     end
   end
 
-  # DELETE /charities/1
-  # DELETE /charities/1.json
   def destroy
     @charity = Charity.find(params[:id])
     @charity.destroy

@@ -13,3 +13,11 @@ Charity.create(name: 'World Vision',
   overall: 64.60,
   financial: 62.98,
   accountability: 67.00)
+  
+User.delete_all
+User.create(name: 'Rob',
+            password_digest: BCrypt::Password.create('R0b'))
+User.create(name: 'Paul',
+            password_digest: BCrypt::Password.create('P4ul'))
+User.create(name: 'Stacy',
+            password_digest: BCrypt::Password.create('St4cy'))
