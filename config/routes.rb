@@ -1,4 +1,9 @@
 Gibbons::Application.routes.draw do
+
+  get "survey/index"
+
+  get "suggestion/index"
+
   get 'admin' => 'admin#index'
 
   controller :sessions do
@@ -20,6 +25,9 @@ Gibbons::Application.routes.draw do
   match 'aboutUs' => 'home#about_us'
   match 'contactUs' => 'home#contact_us'
   match 'termsConditions' => 'home#terms_conditions'
+
+  match 'disposition' => 'disposition#index'
+  match 'interests' => 'interests#index'
     
   # Sample of named route:
   #   match 'products/:id/purchase' => 'catalog#purchase', :as => :purchase
