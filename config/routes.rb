@@ -1,5 +1,14 @@
 Gibbons::Application.routes.draw do
+  get 'admin' => 'admin#index'
+
+  controller :sessions do
+    get 'login' => :new
+    post 'login' => :create
+    delete 'logout' => :destroy
+  end
+
   resources :users
+  resources :charities
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
@@ -11,9 +20,7 @@ Gibbons::Application.routes.draw do
   match 'aboutUs' => 'home#about_us'
   match 'contactUs' => 'home#contact_us'
   match 'termsConditions' => 'home#terms_conditions'
-  
-  resources :charities
-  
+    
   # Sample of named route:
   #   match 'products/:id/purchase' => 'catalog#purchase', :as => :purchase
   # This route can be invoked with purchase_url(:id => product.id)
