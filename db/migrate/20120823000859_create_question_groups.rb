@@ -1,7 +1,7 @@
 class CreateQuestionGroups < ActiveRecord::Migration
   
   def change
-    drop_table :question_groups
+#    drop_table :question_groups
     
     create_table :question_groups do |t|
       t.string :label

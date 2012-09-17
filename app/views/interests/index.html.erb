@@ -1,11 +1,18 @@
 <h1>Interests</h1>
 
 <div class="interests_form">
+
   <%= form_tag do %>
-    <%= check_box_tag(:poor_education) %>
-    <%= label_tag(:poor_education, "Education in Poor Communities") %>
-    <%= check_box_tag(:general_education) %>
-    <%= label_tag(:general_education, "Education in General") %>
+	<% @groups.each do |grp| %>
+	<h3><%= grp.label %></h3>
+	  <% grp.questions.each do |ques| %>
+		<%= ques.label %>
+	    <% ques.questionAnswers.each do |ans| %>
+		  <%= check_box_tag("group_id#{grp.id}.question_id#{ques.id}.answer_id#{ans.id}") %>
+		  <%= label_tag("group_id#{grp.id}.question_id#{ques.id}.answer_id#{ans.id}", ans.label) %>
+	    <% end %>
+	  <% end %>
+	<% end %>
 
 	<div>
 	  <%= submit_tag "Onward" %>

@@ -1,14 +1,14 @@
 class CreateQuestions < ActiveRecord::Migration
   def change
-    drop_table :questions
+#    drop_table :questions
 
     create_table :questions do |t|
       t.string :label
       t.string :question_type
-      t.references :questionGroup
+      t.references :question_group
 
       t.timestamps
     end
-    add_index :questions, :questionGroup_id
+    add_index :questions, :question_group_id
   end
 end

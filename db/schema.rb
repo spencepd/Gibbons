@@ -42,12 +42,12 @@ ActiveRecord::Schema.define(:version => 20120828123030) do
   create_table "questions", :force => true do |t|
     t.string   "label"
     t.string   "question_type"
-    t.integer  "questionGroup_id"
-    t.datetime "created_at",       :null => false
-    t.datetime "updated_at",       :null => false
+    t.integer  "question_group_id"
+    t.datetime "created_at",        :null => false
+    t.datetime "updated_at",        :null => false
   end
 
-  add_index "questions", ["questionGroup_id"], :name => "index_questions_on_questionGroup_id"
+  add_index "questions", ["question_group_id"], :name => "index_questions_on_question_group_id"
 
   create_table "users", :force => true do |t|
     t.string   "name"
