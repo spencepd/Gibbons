@@ -20,7 +20,11 @@ class InterestsController < ApplicationController
       end
     end
 
+    puts "max key is #{groups.key(groups.values.max).first}"
+    
+    survey = Survey.create(:answer_row => groups.key(groups.values.max).first)
     puts "groups is #{groups}"
+    puts "SurveyId is: #{survey.id}"
     
     redirect_to disposition_url
   end

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120828123030) do
+ActiveRecord::Schema.define(:version => 20120919160131) do
 
   create_table "charities", :force => true do |t|
     t.string   "name"
@@ -48,6 +48,29 @@ ActiveRecord::Schema.define(:version => 20120828123030) do
   end
 
   add_index "questions", ["question_group_id"], :name => "index_questions_on_question_group_id"
+
+  create_table "survey_answers", :force => true do |t|
+    t.integer  "question_group_id"
+    t.integer  "question_id"
+    t.integer  "question_answer_id"
+    t.string   "answer"
+    t.integer  "survey_id"
+    t.datetime "created_at",         :null => false
+    t.datetime "updated_at",         :null => false
+  end
+
+  add_index "survey_answers", ["question_answer_id"], :name => "index_survey_answers_on_question_answer_id"
+  add_index "survey_answers", ["question_group_id"], :name => "index_survey_answers_on_question_group_id"
+  add_index "survey_answers", ["question_id"], :name => "index_survey_answers_on_question_id"
+  add_index "survey_answers", ["survey_id"], :name => "index_survey_answers_on_survey_id"
+
+  create_table "surveys", :force => true do |t|
+    t.string   "email_address"
+    t.integer  "answer_row"
+    t.integer  "answer_column"
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
+  end
 
   create_table "users", :force => true do |t|
     t.string   "name"

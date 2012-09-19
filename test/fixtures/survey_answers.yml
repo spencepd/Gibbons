@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  question_group: 
+  question: 
+  question_answer: 
+  answer: MyString
+  survey: 
+
+two:
+  question_group: 
+  question: 
+  question_answer: 
+  answer: MyString
+  survey: 
