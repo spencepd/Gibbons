@@ -1,13 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
-  surveyDate: 2012-09-19
-  emailAddress: MyString
-  answerRow: 
-  answerColumn: 
+  email_address: MyString
+  answer_row: 
+  answer_column: 
 
 two:
-  surveyDate: 2012-09-19
-  emailAddress: MyString
-  answerRow: 
-  answerColumn: 
+  email_address: MyString
+  answer_row: 
+  answer_column: 
