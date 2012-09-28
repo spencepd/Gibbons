@@ -3,9 +3,9 @@
 one:
   label: Question One
   question_type: MULTI_CHOICE
-  question_group_id: education
+  question_group_id: 1
 
 two:
   label: Question Two
   question_type: SINGLE_CHOICE
-  question_group_id: education
+  question_group_id: 1

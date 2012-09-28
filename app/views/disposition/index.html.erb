@@ -1,14 +1,22 @@
 <h1>Disposition</h1>
 
 <div class="disposition_form">
+	
   <%= form_tag do %>
-    <%= check_box_tag(:fun) %>
-    <%= label_tag(:fun, "Having fun is important to me") %>
-    <%= check_box_tag(:fiscally_sound) %>
-    <%= label_tag(:fiscally_sound, "Being fiscally sound is important to me") %>
+	<% @groups.each do |grp| %>
+	<h3><%= grp.label %></h3>
+	  <% grp.questions.each do |ques| %>
+		<%= ques.label %>
+	    <% ques.questionAnswers.each do |ans| %>
+		  <%= check_box_tag("question_group_id:#{grp.id}.question_id:#{ques.id}.question_answer_id:#{ans.id}") %>
+		  <%= label_tag("group_id#{grp.id}.question_id#{ques.id}.answer_id#{ans.id}", ans.label) %>
+	    <% end %>
+	  <% end %>
+	<% end %>
 
 	<div>
 	  <%= submit_tag "Onward" %>
     </div>
   <% end %>
+
 </div>
