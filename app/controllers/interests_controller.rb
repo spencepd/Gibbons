@@ -2,6 +2,8 @@ class InterestsController < ApplicationController
   skip_before_filter :authorize
 
   def index
+    # TODO: EXPIRE session 
+    
     @groups = QuestionGroup.where(:group_type => ["EDUCATION", "HEALTH"])
   end
 
@@ -17,6 +19,8 @@ class InterestsController < ApplicationController
         end
         puts "tmp is #{tmp_hash}"
         groups[tmp_hash["group"]] += 1
+        
+        # TODO: persist user answers to db
       end
     end
 
