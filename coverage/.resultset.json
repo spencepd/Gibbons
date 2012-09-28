@@ -1,13 +1,13 @@
 {
   "Unit Tests": {
     "coverage": {
-      "/Users/spencepd/git/Gibbons/app/controllers/admin_controller.rb": [
+      "/Users/rob/Development/play/gibbons/app/controllers/admin_controller.rb": [
         1,
         1,
         null,
         null
       ],
-      "/Users/spencepd/git/Gibbons/app/controllers/application_controller.rb": [
+      "/Users/rob/Development/play/gibbons/app/controllers/application_controller.rb": [
         1,
         1,
         null,
@@ -17,309 +17,129 @@
         null,
         1,
         0,
-        0,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/Users/spencepd/git/Gibbons/app/helpers/application_helper.rb": [
-        1,
-        null
-      ],
-      "/Users/spencepd/git/Gibbons/app/helpers/admin_helper.rb": [
-        1,
-        null
-      ],
-      "/Users/spencepd/git/Gibbons/app/helpers/charities_helper.rb": [
-        1,
-        null
-      ],
-      "/Users/spencepd/git/Gibbons/app/helpers/disposition_helper.rb": [
-        1,
-        null
-      ],
-      "/Users/spencepd/git/Gibbons/app/helpers/home_helper.rb": [
-        1,
-        null
-      ],
-      "/Users/spencepd/git/Gibbons/app/helpers/interests_helper.rb": [
-        1,
-        null
-      ],
-      "/Users/spencepd/git/Gibbons/app/helpers/question_helper.rb": [
-        1,
-        null
-      ],
-      "/Users/spencepd/git/Gibbons/app/helpers/question_group_helper.rb": [
-        1,
-        null
-      ],
-      "/Users/spencepd/git/Gibbons/app/helpers/sessions_helper.rb": [
-        1,
-        null
-      ],
-      "/Users/spencepd/git/Gibbons/app/helpers/suggestion_helper.rb": [
-        1,
-        null
-      ],
-      "/Users/spencepd/git/Gibbons/app/helpers/survey_helper.rb": [
-        1,
-        null
-      ],
-      "/Users/spencepd/git/Gibbons/app/helpers/users_helper.rb": [
-        1,
-        null
-      ],
-      "/Users/spencepd/git/Gibbons/app/controllers/charities_controller.rb": [
-        1,
-        null,
-        1,
-        0,
-        null,
-        0,
-        0,
-        0,
-        null,
-        null,
-        null,
-        1,
-        0,
-        null,
-        0,
-        0,
-        0,
-        null,
-        null,
-        null,
-        1,
-        0,
-        null,
-        0,
-        0,
-        0,
-        null,
-        null,
-        null,
-        1,
-        0,
-        null,
-        null,
-        1,
-        0,
-        null,
-        0,
-        0,
-        0,
-        0,
-        null,
-        0,
-        0,
-        null,
-        null,
-        null,
-        null,
-        1,
-        0,
-        null,
-        0,
-        0,
-        0,
-        0,
-        null,
-        0,
-        0,
-        null,
-        null,
-        null,
-        null,
-        1,
-        0,
-        0,
-        null,
-        0,
-        0,
-        0,
-        null,
-        null,
-        null
-      ],
-      "/Users/spencepd/git/Gibbons/app/models/charity.rb": [
-        1,
-        1,
-        null
-      ],
-      "/Users/spencepd/git/Gibbons/app/controllers/disposition_controller.rb": [
-        1,
-        1,
-        null,
-        1,
-        null,
-        null,
-        1,
-        0,
-        0,
-        null,
         0,
         null,
         null,
         null,
         null
       ],
-      "/Users/spencepd/git/Gibbons/app/controllers/home_controller.rb": [
-        1,
-        1,
-        null,
-        1,
-        null,
-        null,
-        1,
-        null,
-        null,
-        1,
-        null,
-        null,
-        1,
-        null,
-        null
-      ],
-      "/Users/spencepd/git/Gibbons/app/controllers/interests_controller.rb": [
-        1,
-        1,
-        null,
-        1,
-        0,
-        null,
-        null,
-        1,
-        0,
-        null,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        null,
-        0,
-        0,
-        null,
-        null,
-        null,
-        0,
-        null,
-        0,
-        0,
-        0,
-        null,
-        0,
-        null,
-        null
-      ],
-      "/Users/spencepd/git/Gibbons/app/controllers/question_controller.rb": [
+      "/Users/rob/Development/play/gibbons/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/Users/spencepd/git/Gibbons/app/models/question.rb": [
-        1,
-        1,
-        1,
+      "/Users/rob/Development/play/gibbons/app/helpers/admin_helper.rb": [
         1,
         null
       ],
-      "/Users/spencepd/git/Gibbons/app/controllers/question_group_controller.rb": [
+      "/Users/rob/Development/play/gibbons/app/helpers/charities_helper.rb": [
         1,
         null
       ],
-      "/Users/spencepd/git/Gibbons/app/models/question_group.rb": [
-        1,
-        1,
+      "/Users/rob/Development/play/gibbons/app/helpers/disposition_helper.rb": [
         1,
         null
       ],
-      "/Users/spencepd/git/Gibbons/app/controllers/sessions_controller.rb": [
-        1,
-        1,
-        null,
-        1,
-        null,
-        null,
-        1,
-        0,
-        0,
-        0,
-        0,
-        null,
-        0,
-        null,
-        null,
-        null,
-        1,
-        0,
-        0,
-        null,
-        null
-      ],
-      "/Users/spencepd/git/Gibbons/app/controllers/suggestion_controller.rb": [
-        1,
-        1,
-        null,
-        1,
-        0,
-        null,
-        null
-      ],
-      "/Users/spencepd/git/Gibbons/app/controllers/survey_controller.rb": [
-        1,
-        1,
-        null,
-        1,
-        null,
-        null,
-        1,
-        null,
-        null
-      ],
-      "/Users/spencepd/git/Gibbons/app/models/survey.rb": [
-        1,
+      "/Users/rob/Development/play/gibbons/app/helpers/home_helper.rb": [
         1,
         null
       ],
-      "/Users/spencepd/git/Gibbons/app/controllers/users_controller.rb": [
+      "/Users/rob/Development/play/gibbons/app/helpers/interests_helper.rb": [
         1,
+        null
+      ],
+      "/Users/rob/Development/play/gibbons/app/helpers/question_helper.rb": [
         1,
-        0,
-        null,
-        0,
-        0,
-        0,
-        null,
-        null,
-        null,
+        null
+      ],
+      "/Users/rob/Development/play/gibbons/app/helpers/question_group_helper.rb": [
         1,
-        0,
-        null,
-        0,
-        0,
-        0,
-        null,
-        null,
         null,
         1,
-        0,
+        3,
         null,
-        0,
-        0,
-        0,
+        3,
+        4,
+        4,
+        4,
+        4,
+        12,
+        12,
+        null,
+        4,
         null,
         null,
         null,
-        1,
-        0,
+        3,
         null,
         null,
         1,
+        5,
+        5,
+        2,
+        null,
+        null,
+        1,
         0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/rob/Development/play/gibbons/app/helpers/sessions_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/rob/Development/play/gibbons/app/helpers/suggestion_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/rob/Development/play/gibbons/app/helpers/survey_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/rob/Development/play/gibbons/app/helpers/users_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/rob/Development/play/gibbons/app/controllers/charities_controller.rb": [
+        1,
+        null,
+        1,
+        0,
+        null,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        null,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        null,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        null,
         0,
         0,
         0,
@@ -356,20 +176,235 @@
         null,
         null
       ],
-      "/Users/spencepd/git/Gibbons/app/models/user.rb": [
+      "/Users/rob/Development/play/gibbons/app/models/charity.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/rob/Development/play/gibbons/app/controllers/disposition_controller.rb": [
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        0,
+        0,
+        0,
+        null,
+        0,
+        null,
+        0,
+        null,
+        null,
+        null
+      ],
+      "/Users/rob/Development/play/gibbons/app/controllers/home_controller.rb": [
+        1,
+        1,
+        null,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/rob/Development/play/gibbons/app/controllers/interests_controller.rb": [
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        null,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        0,
+        null,
+        0,
+        null,
+        0,
+        null,
+        null
+      ],
+      "/Users/rob/Development/play/gibbons/app/controllers/question_controller.rb": [
+        1,
+        null
+      ],
+      "/Users/rob/Development/play/gibbons/app/models/question.rb": [
         1,
         1,
         1,
         1,
         null
       ],
-      "/Users/spencepd/git/Gibbons/app/models/question_answer.rb": [
+      "/Users/rob/Development/play/gibbons/app/controllers/question_group_controller.rb": [
+        1,
+        null
+      ],
+      "/Users/rob/Development/play/gibbons/app/models/question_group.rb": [
         1,
         1,
         1,
         null
       ],
-      "/Users/spencepd/git/Gibbons/app/models/survey_answer.rb": [
+      "/Users/rob/Development/play/gibbons/app/controllers/sessions_controller.rb": [
+        1,
+        1,
+        null,
+        1,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null
+      ],
+      "/Users/rob/Development/play/gibbons/app/controllers/suggestion_controller.rb": [
+        1,
+        1,
+        null,
+        1,
+        0,
+        0,
+        0,
+        null,
+        0,
+        null,
+        null
+      ],
+      "/Users/rob/Development/play/gibbons/app/controllers/survey_controller.rb": [
+        1,
+        1,
+        null,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/rob/Development/play/gibbons/app/models/survey.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/rob/Development/play/gibbons/app/controllers/users_controller.rb": [
+        1,
+        1,
+        0,
+        null,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        null,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        null,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        1,
+        0,
+        null,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null
+      ],
+      "/Users/rob/Development/play/gibbons/app/models/user.rb": [
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "/Users/rob/Development/play/gibbons/app/models/question_answer.rb": [
+        1,
+        1,
+        1,
+        null
+      ],
+      "/Users/rob/Development/play/gibbons/app/models/survey_answer.rb": [
         1,
         1,
         1,
@@ -379,17 +414,17 @@
         null
       ]
     },
-    "timestamp": 1348630581
+    "timestamp": 1348858076
   },
   "Functional Tests": {
     "coverage": {
-      "/Users/spencepd/git/Gibbons/app/controllers/admin_controller.rb": [
+      "/Users/rob/Development/play/gibbons/app/controllers/admin_controller.rb": [
         1,
         1,
         null,
         null
       ],
-      "/Users/spencepd/git/Gibbons/app/controllers/application_controller.rb": [
+      "/Users/rob/Development/play/gibbons/app/controllers/application_controller.rb": [
         1,
         1,
         null,
@@ -405,55 +440,87 @@
         null,
         null
       ],
-      "/Users/spencepd/git/Gibbons/app/helpers/application_helper.rb": [
+      "/Users/rob/Development/play/gibbons/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/Users/spencepd/git/Gibbons/app/helpers/admin_helper.rb": [
+      "/Users/rob/Development/play/gibbons/app/helpers/admin_helper.rb": [
         1,
         null
       ],
-      "/Users/spencepd/git/Gibbons/app/helpers/charities_helper.rb": [
+      "/Users/rob/Development/play/gibbons/app/helpers/charities_helper.rb": [
         1,
         null
       ],
-      "/Users/spencepd/git/Gibbons/app/helpers/disposition_helper.rb": [
+      "/Users/rob/Development/play/gibbons/app/helpers/disposition_helper.rb": [
         1,
         null
       ],
-      "/Users/spencepd/git/Gibbons/app/helpers/home_helper.rb": [
+      "/Users/rob/Development/play/gibbons/app/helpers/home_helper.rb": [
         1,
         null
       ],
-      "/Users/spencepd/git/Gibbons/app/helpers/interests_helper.rb": [
+      "/Users/rob/Development/play/gibbons/app/helpers/interests_helper.rb": [
         1,
         null
       ],
-      "/Users/spencepd/git/Gibbons/app/helpers/question_helper.rb": [
+      "/Users/rob/Development/play/gibbons/app/helpers/question_helper.rb": [
         1,
         null
       ],
-      "/Users/spencepd/git/Gibbons/app/helpers/question_group_helper.rb": [
+      "/Users/rob/Development/play/gibbons/app/helpers/question_group_helper.rb": [
+        1,
+        null,
+        1,
+        0,
+        null,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        null,
+        null,
+        null,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/rob/Development/play/gibbons/app/helpers/sessions_helper.rb": [
         1,
         null
       ],
-      "/Users/spencepd/git/Gibbons/app/helpers/sessions_helper.rb": [
+      "/Users/rob/Development/play/gibbons/app/helpers/suggestion_helper.rb": [
         1,
         null
       ],
-      "/Users/spencepd/git/Gibbons/app/helpers/suggestion_helper.rb": [
+      "/Users/rob/Development/play/gibbons/app/helpers/survey_helper.rb": [
         1,
         null
       ],
-      "/Users/spencepd/git/Gibbons/app/helpers/survey_helper.rb": [
+      "/Users/rob/Development/play/gibbons/app/helpers/users_helper.rb": [
         1,
         null
       ],
-      "/Users/spencepd/git/Gibbons/app/helpers/users_helper.rb": [
-        1,
-        null
-      ],
-      "/Users/spencepd/git/Gibbons/app/controllers/charities_controller.rb": [
+      "/Users/rob/Development/play/gibbons/app/controllers/charities_controller.rb": [
         1,
         null,
         1,
@@ -526,15 +593,18 @@
         null,
         null
       ],
-      "/Users/spencepd/git/Gibbons/app/models/charity.rb": [
+      "/Users/rob/Development/play/gibbons/app/models/charity.rb": [
         1,
         1,
         null
       ],
-      "/Users/spencepd/git/Gibbons/app/controllers/disposition_controller.rb": [
+      "/Users/rob/Development/play/gibbons/app/controllers/disposition_controller.rb": [
         1,
         1,
         null,
+        1,
+        null,
+        1,
         1,
         null,
         null,
@@ -543,12 +613,17 @@
         0,
         null,
         0,
+        0,
+        0,
         null,
+        0,
+        null,
+        0,
         null,
         null,
         null
       ],
-      "/Users/spencepd/git/Gibbons/app/controllers/home_controller.rb": [
+      "/Users/rob/Development/play/gibbons/app/controllers/home_controller.rb": [
         1,
         1,
         null,
@@ -565,61 +640,52 @@
         null,
         null
       ],
-      "/Users/spencepd/git/Gibbons/app/controllers/interests_controller.rb": [
+      "/Users/rob/Development/play/gibbons/app/controllers/interests_controller.rb": [
         1,
         1,
         null,
         1,
+        null,
+        1,
+        null,
+        null,
         1,
         null,
         null,
         1,
         0,
-        null,
-        0,
-        0,
-        0,
-        0,
-        0,
         0,
         null,
         0,
-        0,
         null,
-        null,
-        null,
-        0,
-        null,
-        0,
-        0,
         0,
         null,
         0,
         null,
         null
       ],
-      "/Users/spencepd/git/Gibbons/app/controllers/question_controller.rb": [
+      "/Users/rob/Development/play/gibbons/app/controllers/question_controller.rb": [
         1,
         null
       ],
-      "/Users/spencepd/git/Gibbons/app/models/question.rb": [
+      "/Users/rob/Development/play/gibbons/app/models/question.rb": [
         1,
-        1,
-        1,
-        1,
-        null
-      ],
-      "/Users/spencepd/git/Gibbons/app/controllers/question_group_controller.rb": [
-        1,
-        null
-      ],
-      "/Users/spencepd/git/Gibbons/app/models/question_group.rb": [
         1,
         1,
         1,
         null
       ],
-      "/Users/spencepd/git/Gibbons/app/controllers/sessions_controller.rb": [
+      "/Users/rob/Development/play/gibbons/app/controllers/question_group_controller.rb": [
+        1,
+        null
+      ],
+      "/Users/rob/Development/play/gibbons/app/models/question_group.rb": [
+        1,
+        1,
+        1,
+        null
+      ],
+      "/Users/rob/Development/play/gibbons/app/controllers/sessions_controller.rb": [
         1,
         1,
         null,
@@ -642,32 +708,36 @@
         null,
         null
       ],
-      "/Users/spencepd/git/Gibbons/app/controllers/suggestion_controller.rb": [
+      "/Users/rob/Development/play/gibbons/app/controllers/suggestion_controller.rb": [
         1,
         1,
         null,
         1,
+        1,
+        1,
+        0,
+        null,
+        0,
+        null,
+        null
+      ],
+      "/Users/rob/Development/play/gibbons/app/controllers/survey_controller.rb": [
+        1,
+        1,
+        null,
+        1,
+        null,
+        null,
         1,
         null,
         null
       ],
-      "/Users/spencepd/git/Gibbons/app/controllers/survey_controller.rb": [
-        1,
-        1,
-        null,
-        1,
-        null,
-        null,
-        1,
-        null,
-        null
-      ],
-      "/Users/spencepd/git/Gibbons/app/models/survey.rb": [
+      "/Users/rob/Development/play/gibbons/app/models/survey.rb": [
         1,
         1,
         null
       ],
-      "/Users/spencepd/git/Gibbons/app/controllers/users_controller.rb": [
+      "/Users/rob/Development/play/gibbons/app/controllers/users_controller.rb": [
         1,
         1,
         1,
@@ -738,20 +808,20 @@
         null,
         null
       ],
-      "/Users/spencepd/git/Gibbons/app/models/user.rb": [
+      "/Users/rob/Development/play/gibbons/app/models/user.rb": [
         1,
         1,
         1,
         1,
         null
       ],
-      "/Users/spencepd/git/Gibbons/app/models/question_answer.rb": [
+      "/Users/rob/Development/play/gibbons/app/models/question_answer.rb": [
         1,
         1,
         1,
         null
       ],
-      "/Users/spencepd/git/Gibbons/app/models/survey_answer.rb": [
+      "/Users/rob/Development/play/gibbons/app/models/survey_answer.rb": [
         1,
         1,
         1,
@@ -761,6 +831,6 @@
         null
       ]
     },
-    "timestamp": 1348630583
+    "timestamp": 1348858078
   }
 }

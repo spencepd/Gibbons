@@ -4,7 +4,7 @@ class DispositionController < ApplicationController
   include QuestionGroupHelper
 
   def index
-    @groups = QuestionGroup.where(:group_type => ["EDUCATION", "HEALTH"])
+    @groups = QuestionGroup.where(:group_type => ["DISASTER", "INFRASTRUCTURE"])
   end
 
   def save_answers

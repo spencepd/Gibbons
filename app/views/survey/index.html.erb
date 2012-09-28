@@ -2,13 +2,19 @@
 
 <div class="survey_form">
   <%= form_tag do %>
-    <%= check_box_tag(:like_you) %>
-    <%= label_tag(:like_you, "I like you guys") %>
-    <%= check_box_tag(:love_you) %>
-    <%= label_tag(:love_you, "I love you guys!") %>
+	<% @groups.each do |grp| %>
+	<h3><%= grp.label %></h3>
+	  <% grp.questions.each do |ques| %>
+		<%= ques.label %>
+	    <% ques.questionAnswers.each do |ans| %>
+		  <%= check_box_tag("question_group_id:#{grp.id}.question_id:#{ques.id}.question_answer_id:#{ans.id}") %>
+		  <%= label_tag("group_id#{grp.id}.question_id#{ques.id}.answer_id#{ans.id}", ans.label) %>
+	    <% end %>
+	  <% end %>
+	<% end %>
 
 	<div>
-	  <%= submit_tag "Submit" %>
+	  <%= submit_tag "Submit Answers" %>
     </div>
   <% end %>
 </div>

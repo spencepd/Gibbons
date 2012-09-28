@@ -1,7 +1,6 @@
 <h1>Disposition</h1>
 
 <div class="disposition_form">
-	
   <%= form_tag do %>
 	<% @groups.each do |grp| %>
 	<h3><%= grp.label %></h3>
@@ -15,8 +14,7 @@
 	<% end %>
 
 	<div>
-	  <%= submit_tag "Onward" %>
+	  <%= submit_tag "See Suggestions" %>
     </div>
   <% end %>
-
 </div>
