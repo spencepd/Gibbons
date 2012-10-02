@@ -1,15 +1,23 @@
 class DispositionController < ApplicationController
   skip_before_filter :authorize
 
+  include QuestionGroupHelper
+
   def index
+    @groups = QuestionGroup.where(:group_type => ["DISASTER", "INFRASTRUCTURE"])
   end
 
   def save_answers
-    if params[:fun]
-      redirect_to suggestion_url
-    else
-      redirect_to admin_url
-    end  
+    answers = parse_answers(params)
+    max_group = get_max_group(answers)
+    
+    survey = session[:survey]
+    survey.answer_column = max_group
+    survey.save
+
+    save_survey_answers(answers, survey)
+    
+    redirect_to suggestion_url
   end
 
 end
